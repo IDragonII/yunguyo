@@ -1,0 +1,174 @@
+CRITICAL - 2024-01-15 03:54:23 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-01-15 04:38:12 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::controller()
+in APPPATH\Config\Routes.php on line 6.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 04:38:27 --> Error: Call to undefined method CodeIgniter\Router\RouteCollection::controller()
+in APPPATH\Config\Routes.php on line 8.
+ 1 SYSTEMPATH\Router\RouteCollection.php(344): require()
+ 2 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 04:49:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "registro.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('registro.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('registro', [], true)
+ 3 APPPATH\Controllers\Registro.php(9): view('registro')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Registro->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registro))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 04:56:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 05:00:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Usuarios.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Usuarios->login()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 05:00:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('register', [], true)
+ 3 APPPATH\Controllers\Usuarios.php(13): view('register')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Usuarios->register()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 13:12:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Login.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:06:53 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:07:14 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:09:29 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:09:34 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:11:15 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:11:15 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:11:18 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:11:28 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:14:27 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:17:11 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-15 14:19:00 --> Error: Class "CodeIngiter\Model" not found
+in APPPATH\Models\UsuariosModel.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(309): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\Yunguyo\\app\\Models\\UsuariosModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\UsuariosModel')
+ 4 APPPATH\Controllers\Register.php(15): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\UsuariosModel')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Register->do_register()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
