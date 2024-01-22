@@ -43,12 +43,12 @@
     // Simulación de hoteles (en un escenario real, esto debería provenir de una base de datos o una API)
     $hoteles = [
         [
-            'nombre' => 'Hotel Ejemplo 1',
+            'nombre' => 'Onkel Inn Copacabana',
             'descripcion' => 'Un hermoso hotel en una ubicación pintoresca.',
             'tarifa' => 100,
         ],
         [
-            'nombre' => 'Hotel Ejemplo 2',
+            'nombre' => 'Hotel Rosario Lago Titicaca',
             'descripcion' => 'Un lujoso hotel con todas las comodidades.',
             'tarifa' => 150,
         ],
