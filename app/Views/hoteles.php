@@ -171,7 +171,7 @@
 								</div>
 							<div class="testimonial-info">
 								<div class="testimonial-person">
-									<h2>Onkel Inn Copacabana</h2>
+									<h2>Onkel Inn Copacabana tresmil</h2>
 									<div class="testimonial-person-star">
 										<i class="fa fa-star"></i>
 										<i class="fa fa-star"></i>
