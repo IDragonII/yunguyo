@@ -495,7 +495,11 @@
 			</div><!--/.container-->
 			<div class="section-header">
 					<button style="background-color: #ff0000; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;"><a href="<?php echo base_url();?>/restaurantes" style="color: #fff;">Ver mas</a></button>
+					<button style="background-color: #ff0000; color: #ffffff; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;"><a href="<?php echo base_url();?>/reservas" style="color: #fff;">Reservas</a></button>		
 				</div><!--/.section-header-->
+				
+			
+			<a href="./reservas.php"><input type="button" value="Ir"></a>
 		</section><!--/.blog-->
 		<!--blog end -->
 		<section id="restaurantes" class="blog" >
